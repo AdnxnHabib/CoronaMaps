@@ -19,14 +19,14 @@
 </head>
 
 <body>
-    <input class = "form-control" id = "search" type = "text" placeholder = "Search...">
+    <input class = "form-control" id = "search" type = "text" placeholder = "Search...">    
     <div id="map"></div>
 
     <!--This is new-->
    
     <script>
  
-        function initMap() {
+ function initMap() {
         // Create the initial Map
           var middle = {lat:43.660560, lng:-79.522947};
           var map = new google.maps.Map(
@@ -40,6 +40,7 @@
      });
  }
         }
+
             </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhn6wSPOGLV4hp4_dZwZ3DRCao9Ev8Sh0&callback=initMap&libraries=places">
