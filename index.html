@@ -19,7 +19,11 @@
 </head>
 
 <body>
+    <input class = "form-control" id = "search" type = "text" placeholder = "Search...">
     <div id="map"></div>
+
+    <!--This is new-->
+   
     <script>
  
         function initMap() {
@@ -122,7 +126,7 @@
         }
             </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhn6wSPOGLV4hp4_dZwZ3DRCao9Ev8Sh0&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhn6wSPOGLV4hp4_dZwZ3DRCao9Ev8Sh0&callback=initMap&libraries=places">
     </script>
 </body>
 </html>
