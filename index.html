@@ -11,18 +11,24 @@
             height: 100%;
             margin: 0px;
         }
+
         #map {
           height: 100%;  /* The height is 400 pixels */
           width: 100%;  /* The width is the width of the web page */
+          position: absolute;
          }
+
+         #search-bar{
+            float: right; 
+            margin: 90px; 
+            position: relative;
+        }
       </style>
 </head>
 
 <body>
-    <input class = "form-control" id = "search" type = "text" placeholder = "Search...">
+    <div id="search-bar"> <input class = "form-control" id = "search" type = "text" placeholder = "Search..." style="height: 40px;"> </div>
     <div id="map"></div>
-
-    <!--This is new-->
    
     <script>
  
